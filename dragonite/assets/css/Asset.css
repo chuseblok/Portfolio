@@ -1,0 +1,248 @@
+:root {
+  --pale-teal:#92ccce;
+  --charcoal-grey:#31343d;
+  --slate-blue: #445877;
+  --white: #ffffff; 
+  --obsidian: #101010;
+
+
+}
+
+
+body {
+  margin:0;
+  padding:0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: var(--charcoal-grey);
+  line-height: 1; 
+    
+
+}
+  
+  header {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+    background:var(--charcoal-grey);
+    color: var(--charcoal-grey);
+
+    
+      
+   
+    
+  }
+sub {
+  line-height: 1;
+  background-color: var(--white); 
+}
+h1 {
+  font-variant: var(--charcoal-grey);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0%;
+line-height: 1.5;
+font-size: 45px;
+background: var(--pale-teal);
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-end;
+}
+nav {
+  color: var(--pale-teal);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 0px 0px 0px;
+  font-weight: 100;
+  font-size:1rem;
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+  max-height: 1%;
+  margin: 0%;
+  display:flex;
+  flex-wrap: wrap;
+}
+h2 {
+  font-variant: var(--slate-blue);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  line-height: 1.5;
+  background: var(--pale-teal);
+
+  
+}
+
+main {
+  background: var(--white);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0%;
+  line-height: 40;
+}
+.box0{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box1 {
+  height: 60px;
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 0px 0px 0px;
+}
+.box2 {
+  height: 60px;
+  width: 400px;
+  background:var(--charcoal-grey);
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 0px 550px;
+}
+.box3 {
+  height: 240px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.box4 {
+  position: relative;
+  top: -90px;
+  height: 60px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 0px 50px 1000px;
+}
+.box5 {
+  height: 500px;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 40px 20px 400px;
+  background-color: var(--pale-teal);
+}
+.box6{
+  position: relative;
+  top: -500px;
+  height: 150px;
+  width: 495px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--pale-teal);
+  margin: 0px 0px 0px 905px;
+}
+.box7{
+  position: relative;
+  top: -790px;
+  height: 150px;
+  width: 495px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--pale-teal);
+  margin: 0px 0px 0px 400px;
+}
+.box8{
+  position: relative;
+  top: -920px;
+  height: 150px;
+  width: 495px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--pale-teal);
+  margin: 0px 0px 0px 905px;
+}
+.box9{
+  position: relative;
+  top: -1210px;
+  height: 150px;
+  width: 495px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--pale-teal);
+  margin: 0px 0px 0px 400px;
+}
+
+
+
+a{
+  color: var(--pale-teal);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.5;
+  margin: 5px;
+}
+
+a:hover{
+  color:var(--slate-blue);
+  background-color: var(--pale-teal);
+
+  
+}
+
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 4.0;
+}
+address{
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 4.0;
+}
+
+.Maine img{
+  position: relative;
+  top:-515px;
+  height: 490px;
+  width: 990px;
+  opacity: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 0px 0px 405px;
+
+}  
+.NewHamp img{
+  position: relative;
+  top:-645px;
+  height:140px;
+  width: 485px;
+  opacity: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 0px 0px 910px
+}
+.Chicago img{
+  position: relative;
+  top: -1065px;
+  height:140px;
+  width: 485px;
+  opacity: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  margin:0px 0px 0px 910px
+}
+.Vermont img{
+  position: relative;
+  top:-935px;
+  height:140px;
+  width: 485px;
+  opacity: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  margin:0px 0px 0px 405px;
+}
+.Vancouver img{
+  position: relative;
+  top:-1355px;
+  height:140px;
+  width: 485px;
+  opacity: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 0px 0px 405px
+}
